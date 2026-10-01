@@ -1,6 +1,6 @@
-# 🇸🇪 SveaRAG: Agile-Managed Swedish Public Services RAG Assistant
+# SveaRAG: Agile-Managed Swedish Public Services RAG Assistant
 
-[![CI Pipeline](https://github.com/example/svearag/actions/workflows/ci.yml/badge.svg)](https://github.com/example/svearag/actions)
+[![CI Pipeline](https://github.com/eradithya958/svearag/actions/workflows/ci.yml/badge.svg)](https://github.com/eradithya958/svearag/actions)
 [![Test Coverage](https://img.shields.io/badge/coverage-93.9%25-brightgreen)](file:///Users/adithya/Desktop/Agile%20managed%20RAG%20based%20AI%20assistant/docs/DEFINITION_OF_DONE.md)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -12,7 +12,7 @@ Developed across **4 structured Agile sprints** with empirical evaluation, stric
 
 ---
 
-## 🏛️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart TD
@@ -62,7 +62,7 @@ flowchart TD
 
 ---
 
-## 📊 Empirical RAG Evaluation Results
+## Empirical RAG Evaluation Results
 
 Evaluated on a golden benchmark of **40 bilingual questions** (25 English, 10 Swedish, 5 Out-of-Domain Refusals):
 
@@ -76,7 +76,7 @@ Evaluated on a golden benchmark of **40 bilingual questions** (25 English, 10 Sw
 
 ---
 
-## 🏃 Quickstart Guide
+## Quickstart Guide
 
 ### 1. Local Python Setup
 ```bash
@@ -119,7 +119,7 @@ docker compose up -d --build
 
 ---
 
-## 📋 API Reference
+## API Reference
 
 - `POST /api/v1/ask`: Query the assistant with optional `agency`, `language`, and `alpha` filters.
 - `GET /api/v1/health`: System health, indexed document count, and vector store status.
@@ -129,7 +129,7 @@ docker compose up -d --build
 
 ---
 
-## 📈 Agile Sprint History & Engineering Metrics
+## Agile Sprint History & Engineering Metrics
 
 | Sprint | Story Points Delivered | Test Coverage | Key Milestones |
 | :--- | :--- | :--- | :--- |
@@ -141,7 +141,7 @@ docker compose up -d --build
 
 ---
 
-## 📄 Documentation Links
+## Documentation Links
 - [Product Vision & Problem Statement](docs/PRODUCT_VISION.md)
 - [Definition of Done (DoD)](docs/DEFINITION_OF_DONE.md)
 - [Product Backlog (18 User Stories)](docs/BACKLOG.md)
