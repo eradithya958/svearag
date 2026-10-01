@@ -1,0 +1,322 @@
+[
+  {
+    "id": "EVAL-001",
+    "question": "What is the monthly maintenance requirement for higher education students in Sweden?",
+    "expected_doc_ids": ["MV-EDU-001"],
+    "expected_facts": ["10,314 SEK", "10314"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-002",
+    "question": "How much total funds must a student show for a 10-month academic year?",
+    "expected_doc_ids": ["MV-EDU-001"],
+    "expected_facts": ["103,140 SEK", "103140"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-003",
+    "question": "Are international students allowed to work during their studies in Sweden?",
+    "expected_doc_ids": ["MV-EDU-001"],
+    "expected_facts": ["without a separate work permit", "permitted to work"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-004",
+    "question": "How many credits must a student complete in their first year to qualify for a permit extension?",
+    "expected_doc_ids": ["MV-EDU-001"],
+    "expected_facts": ["15", "credits"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-005",
+    "question": "Can I apply for a job seeker permit after completing a Master's degree in Sweden?",
+    "expected_doc_ids": ["MV-JOB-002"],
+    "expected_facts": ["12-month", "60 ECTS credits", "before your existing student residence permit expires"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-006",
+    "question": "What is the total maintenance requirement for the 12-month post-study job seeker permit?",
+    "expected_doc_ids": ["MV-JOB-002"],
+    "expected_facts": ["123,768 SEK", "123768"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-007",
+    "question": "Can I start working immediately after submitting a work permit application from a job seeker permit?",
+    "expected_doc_ids": ["MV-JOB-002"],
+    "expected_facts": ["allowed to begin working", "submitted"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-008",
+    "question": "What is the minimum salary threshold (lönekrav) for a Swedish work permit?",
+    "expected_doc_ids": ["MV-WRK-003"],
+    "expected_facts": ["80 percent of the Swedish median salary", "28,480 SEK", "28480"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-009",
+    "question": "How long must a job opening be advertised on Arbetsförmedlingen / EURES before hiring non-EU staff?",
+    "expected_doc_ids": ["MV-WRK-003"],
+    "expected_facts": ["10 calendar days", "10 days"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-010",
+    "question": "How many years of holding a work permit are required to apply for permanent residency (PUT)?",
+    "expected_doc_ids": ["MV-WRK-003"],
+    "expected_facts": ["four years", "48 months"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-011",
+    "question": "Who is eligible to register in the Swedish Population Register (Folkbokföring)?",
+    "expected_doc_ids": ["SKV-REG-001"],
+    "expected_facts": ["at least one year", "12 months", "Skatteverket"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-012",
+    "question": "What format is a Swedish personnummer formatted in?",
+    "expected_doc_ids": ["SKV-REG-001"],
+    "expected_facts": ["YYYYMMDD-XXXX", "four digits"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-013",
+    "question": "Do I have to visit a service office in person to register for a personnummer?",
+    "expected_doc_ids": ["SKV-REG-001"],
+    "expected_facts": ["in person", "identity check", "Statens servicecenter"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-014",
+    "question": "How does a coordination number (samordningsnummer) differ from a personnummer in date formatting?",
+    "expected_doc_ids": ["SKV-NUM-002"],
+    "expected_facts": ["60 is added to the day of birth", "add 60"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-015",
+    "question": "Can an individual apply for a coordination number on their own without an authority request?",
+    "expected_doc_ids": ["SKV-NUM-002"],
+    "expected_facts": ["cannot apply for a coordination number on your own", "requested on your behalf"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-016",
+    "question": "How long does a coordination number remain valid before expiring?",
+    "expected_doc_ids": ["SKV-NUM-002"],
+    "expected_facts": ["five years", "5 years"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-017",
+    "question": "What is the flat tax rate for SINK tax in Sweden for non-residents?",
+    "expected_doc_ids": ["SKV-TAX-003"],
+    "expected_facts": ["25 percent", "25%"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-018",
+    "question": "Do individuals taxed under SINK have to file an annual income tax return (inkomstdeklaration)?",
+    "expected_doc_ids": ["SKV-TAX-003"],
+    "expected_facts": ["do not need to file", "no annual income tax return"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-019",
+    "question": "At what duration of stay does standard Swedish municipal income tax (A-skatt) apply?",
+    "expected_doc_ids": ["SKV-TAX-003"],
+    "expected_facts": ["more than six months", "6 months"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-020",
+    "question": "What is the state income tax rate on earnings above the skiktgräns in Sweden?",
+    "expected_doc_ids": ["SKV-TAX-003"],
+    "expected_facts": ["20 percent", "20%"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-021",
+    "question": "Hur många år måste man ha haft uppehållstillstånd för doktorandstudier för permanent uppehållstillstånd?",
+    "expected_doc_ids": ["MV-DOC-004"],
+    "expected_facts": ["fyra år", "48 månader"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-022",
+    "question": "Vilka krav ställs på anställningens varaktighet för permanent uppehållstillstånd för forskare?",
+    "expected_doc_ids": ["MV-DOC-004"],
+    "expected_facts": ["tillsvidareanställning", "minst 18 månader"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-023",
+    "question": "Godtas provanställning normalt för permanent uppehållstillstånd för doktorander?",
+    "expected_doc_ids": ["MV-DOC-004"],
+    "expected_facts": ["provanställningar godtas i regel inte", "fast tjänst"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-024",
+    "question": "Vad är Migrationsverkets normalbelopp för ensamstående vuxen vid försörjningskrav 2025?",
+    "expected_doc_ids": ["MV-DOC-004"],
+    "expected_facts": ["6 090 SEK", "6090"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-025",
+    "question": "Vad heter den preliminära skattsedeln som arbetsgivaren behöver i Sverige?",
+    "expected_doc_ids": ["SKV-TAX-003"],
+    "expected_facts": ["A-skattsedel", "A-skatt"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-026",
+    "question": "Vilken myndighet utfärdar samordningsnummer och folkbokför i Sverige?",
+    "expected_doc_ids": ["SKV-REG-001", "SKV-NUM-002"],
+    "expected_facts": ["Skatteverket"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-027",
+    "question": "Vilka obligatoriska försäkringar måste en arbetsgivare teckna för ett arbetstillstånd?",
+    "expected_doc_ids": ["MV-WRK-003"],
+    "expected_facts": ["tjänstepensionsförsäkring", "sjukförsäkring", "livförsäkring", "trygghetsförsäkring vid arbetsskada"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-028",
+    "question": "Kan man ansöka om arbetstillstånd inifrån Sverige efter att ha haft arbetssökartillstånd?",
+    "expected_doc_ids": ["MV-JOB-002"],
+    "expected_facts": ["utan att lämna landet", "inifrån Sverige"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-029",
+    "question": "Hur snabbt skickas beslut och personnummer efter flyttanmälan?",
+    "expected_doc_ids": ["SKV-REG-001"],
+    "expected_facts": ["2 till 6 veckor", "post"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-030",
+    "question": "Måste fackförbundet få yttra sig över anställningsvillkoren vid arbetstillstånd?",
+    "expected_doc_ids": ["MV-WRK-003"],
+    "expected_facts": ["fackförbund", "fackliga organisationen"],
+    "language": "sv",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-031",
+    "question": "What are the rules for obtaining a Norwegian offshore drilling permit?",
+    "expected_doc_ids": [],
+    "expected_facts": ["I do not have sufficient information in the official documents"],
+    "language": "en",
+    "is_answerable": false
+  },
+  {
+    "id": "EVAL-032",
+    "question": "How do I calculate Finnish capital gains tax on cryptocurrency?",
+    "expected_doc_ids": [],
+    "expected_facts": ["I do not have sufficient information in the official documents"],
+    "language": "en",
+    "is_answerable": false
+  },
+  {
+    "id": "EVAL-033",
+    "question": "What is the speed limit on Danish motorways during winter?",
+    "expected_doc_ids": [],
+    "expected_facts": ["I do not have sufficient information in the official documents"],
+    "language": "en",
+    "is_answerable": false
+  },
+  {
+    "id": "EVAL-034",
+    "question": "How do I register a limited liability company (GmbH) in Berlin Germany?",
+    "expected_doc_ids": [],
+    "expected_facts": ["I do not have sufficient information in the official documents"],
+    "language": "en",
+    "is_answerable": false
+  },
+  {
+    "id": "EVAL-035",
+    "question": "Vad är reglerna för att köpa fastighet i södra Frankrike som svensk medborgare?",
+    "expected_doc_ids": [],
+    "expected_facts": ["I do not have sufficient information in the official documents"],
+    "language": "sv",
+    "is_answerable": false
+  },
+  {
+    "id": "EVAL-036",
+    "question": "What documents are required to prove civil status when registering with family at Skatteverket?",
+    "expected_doc_ids": ["SKV-REG-001"],
+    "expected_facts": ["marriage certificates", "birth certificates"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-037",
+    "question": "What are the three identity assurance levels for coordination numbers introduced in September 2023?",
+    "expected_doc_ids": ["SKV-NUM-002"],
+    "expected_facts": ["Confirmed identity", "Probable identity", "Uncertain identity"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-038",
+    "question": "How old can bank statements be when submitting a student residence permit application?",
+    "expected_doc_ids": ["MV-EDU-001"],
+    "expected_facts": ["one month", "1 month"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-039",
+    "question": "Can funds in parents' accounts be used directly without a scholarship or loan?",
+    "expected_doc_ids": ["MV-EDU-001"],
+    "expected_facts": ["own personal bank account", "not parents"],
+    "language": "en",
+    "is_answerable": true
+  },
+  {
+    "id": "EVAL-040",
+    "question": "What is the average Swedish municipal tax rate (kommunalskatt)?",
+    "expected_doc_ids": ["SKV-TAX-003"],
+    "expected_facts": ["32 percent", "32%"],
+    "language": "en",
+    "is_answerable": true
+  }
+]
